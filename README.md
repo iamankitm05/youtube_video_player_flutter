@@ -1,3 +1,5 @@
-# youtube_video_player_flutter
+# Youtube Video Player 
 
 A new Flutter project.
+
+<video controls src="example/1.mp4" title="Example"></video>

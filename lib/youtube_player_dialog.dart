@@ -53,7 +53,7 @@ class _YoutubePlayerDialogState extends State<YoutubePlayerDialog> {
     super.initState();
     _controller = YoutubePlayerController(
       initialVideoId: widget.videoId,
-      flags: YoutubePlayerFlags(autoPlay: true, mute: false),
+      flags: YoutubePlayerFlags(autoPlay: false, mute: true),
     );
   }
 
